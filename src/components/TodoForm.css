@@ -1,0 +1,27 @@
+.todo-form{
+    margin: 20px 0;
+    display: flex;
+    gap: 4px;
+}
+.todo-form input{
+    width: 80%;
+    padding: 4px 0;
+    font-size: 1.4rem;
+    border:  2px solid var(--primary-color);
+    border-radius: 5px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 4px;
+    background-color:(--primary-color);
+}
+.todo-form button{
+    width: calc(20%);
+    padding: 4px 4px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    background-color: var(--primary-color);
+    cursor: pointer;
+}

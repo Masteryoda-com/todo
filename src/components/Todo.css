@@ -1,0 +1,20 @@
+.todo-container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
+    background-color: (--secondary-color);
+    color:rgb(255, 255, 255);
+}
+.todo-container:hover{
+    background: rgba(185, 185, 185, 0.363);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.todo-time{
+    font-size: 1rem;
+}
