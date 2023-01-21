@@ -12,6 +12,7 @@ function addTodo(todo){
   alert('Please enter a Details');
   return;
 }
+// 
 let todoObject ={
   id:Math.floor(Math.random() * 100000),
   text:todo,
